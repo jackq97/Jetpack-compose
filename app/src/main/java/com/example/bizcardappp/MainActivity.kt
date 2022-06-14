@@ -262,13 +262,4 @@ fun DefaultPreview() {
     }
 }
 
-@Preview
-@Composable
-fun JetpackCompose(){
-    Card {
-        var expanded by remember { mutableStateOf(false) }
-        Column(Modifier.clickable { expanded = !expanded }) {
-            Imafe
-        }
-    }
-}
+
